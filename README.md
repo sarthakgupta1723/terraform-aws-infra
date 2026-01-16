@@ -18,7 +18,6 @@ The infrastructure provisions:
 - Security Group
 - EC2 Instance (Private Subnet)
 - Multiple EBS Data Disks
-- Key Pair
 - Remote Backend (S3 + DynamoDB)
 
 ---
@@ -41,9 +40,6 @@ terraform-aws-infra-complete/
     │   ├── main.tf
     │   ├── variables.tf
     │   └── outputs.tf
-    ├── keypair/
-    │   ├── main.tf
-    │   └── variables.tf
     └── ec2/
         ├── main.tf
         ├── variables.tf
@@ -123,7 +119,6 @@ terraform destroy
 
 ## 📈 Future Enhancements
 
-- Highly available NAT Gateways
 - Application Load Balancer + Auto Scaling
 - RDS in private subnet
 - IAM roles & SSM
