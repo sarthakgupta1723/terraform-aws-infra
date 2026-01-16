@@ -133,10 +133,3 @@ terraform destroy
 
 ---
 
-## ⭐ Notes
-
-This project follows **enterprise Terraform best practices** and is ideal for:
-
-- Interview preparation
-- AWS networking mastery
-- Terraform modular design
