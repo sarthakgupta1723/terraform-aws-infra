@@ -135,7 +135,6 @@ terraform destroy
 
 **Sarthak Gupta**
 **www.linkedin.com/in/sarthak-gupta-cloudengineer**  
-Cloud / DevOps Engineer
 
 ---
 
